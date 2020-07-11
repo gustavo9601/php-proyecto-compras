@@ -1,0 +1,253 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Admin Corporedes365</title>
+    <!-- Tell the browser to be responsive to screen width -->
+    <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
+    <!-- Bootstrap 3.3.5 -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="css/font-awesome.css">
+    <!-- Theme style -->
+    <link rel="stylesheet" href="css/AdminLTE.min.css">
+    <!-- AdminLTE Skins. Choose a skin from the css/skins
+         folder instead of downloading all of them to reduce the load. -->
+    <link rel="stylesheet" href="css/_all-skins.min.css">
+    <link rel="apple-touch-icon" href="img/apple-touch-icon.png">
+    <link rel="shortcut icon" href="../../views/assets/images/corporedes/bird.jpg">
+
+</head>
+<body class="hold-transition skin-blue-light sidebar-mini">
+<div class="wrapper">
+
+    <header class="main-header">
+
+        <!-- Logo -->
+        <a href="login.php" class="logo">
+            <!-- mini logo for sidebar mini 50x50 pixels -->
+            <span class="logo-mini">
+              <img src="../../views/assets/images/corporedes/bird.jpg" alt="" style="width: 100%;">
+          </span>
+            <!-- logo for regular state and mobile devices -->
+            <span class="logo-lg">
+              <img src="../../views/assets/images/corporedes/lgogo-color.jpg" alt="" style="width: 100%">
+          </span>
+        </a>
+
+        <!-- Header Navbar: style can be found in header.less -->
+        <nav class="navbar navbar-static-top" role="navigation">
+            <!-- Sidebar toggle button-->
+            <a href="#" class="sidebar-toggle" data-toggle="offcanvas" role="button">
+                <span class="sr-only">Navegación</span>
+            </a>
+            <!-- Navbar Right Menu -->
+            <div class="navbar-custom-menu">
+                <ul class="nav navbar-nav">
+                    <!-- Messages: style can be found in dropdown.less-->
+
+                    <!-- User Account: style can be found in dropdown.less -->
+                    <li class="dropdown user user-menu">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                            <img src="../../views/assets/images/corporedes/user.png" class="user-image" alt="User Image">
+                            <span class="hidden-xs">
+
+                      1
+                  </span>
+                        </a>
+                        <ul class="dropdown-menu">
+                            <!-- User image -->
+                            <li class="user-header">
+                                <img src="../../views/assets/images/corporedes/user.png" class="img-circle" alt="User Image">
+                                <p>
+                                    1                                </p>
+                            </li>
+
+                            <!-- Menu Footer-->
+                            <li class="user-footer">
+
+                                <div class="pull-right">
+                                    <a href="salir.php" class="btn btn-default btn-flat">Cerrar Sesion</a>
+                                </div>
+                            </li>
+                        </ul>
+                    </li>
+
+                </ul>
+            </div>
+
+        </nav>
+    </header><!-- Left side column. contains the logo and sidebar -->
+<aside class="main-sidebar">
+    <!-- sidebar: style can be found in sidebar.less -->
+    <section class="sidebar">
+        <!-- sidebar menu: : style can be found in sidebar.less -->
+        <ul class="sidebar-menu">
+            <li class="header"></li>
+            <li>
+                <a href="http://localhost:85/corporedes/views/index.php" target="_blank">
+                    <i class="fa fa-th"></i> <span>Ver Sitio</span>
+                </a>
+            </li>
+            <li>
+                <a href="usuarios.php">
+                    <i class="fa fa-folder"></i> <span>Usuarios</span>
+                </a>
+            </li>
+            <li>
+                <a href="admin.php">
+                    <i class="fa fa-tasks"></i> <span>Logos</span>
+                </a>
+            </li>
+            <li class="treeview">
+                <a href="slide.php">
+                    <i class="fa fa-laptop"></i>
+                    <span>Slide</span>
+                </a>
+            </li>
+
+            <li class="treeview">
+                <a href="#">
+                    <i class="fa fa-th"></i>
+                    <span>Compras</span>
+                    <i class="fa fa-angle-left pull-right"></i>
+                </a>
+                <ul class="treeview-menu">
+                    <li><a href="ingreso.php"><i class="fa fa-circle-o"></i> Ingresos</a></li>
+                    <li><a href="proveedor.php"><i class="fa fa-circle-o"></i> Proveedores</a></li>
+                </ul>
+            </li>
+            <li class="treeview">
+                <a href="#">
+                    <i class="fa fa-shopping-cart"></i>
+                    <span>Ventas</span>
+                    <i class="fa fa-angle-left pull-right"></i>
+                </a>
+                <ul class="treeview-menu">
+                    <li><a href="venta.php"><i class="fa fa-circle-o"></i> Ventas</a></li>
+                    <li><a href="cliente.php"><i class="fa fa-circle-o"></i> Clientes</a></li>
+                </ul>
+            </li>
+            <li class="treeview">
+                <a href="#">
+                    <i class="fa fa-folder"></i> <span>Acceso</span>
+                    <i class="fa fa-angle-left pull-right"></i>
+                </a>
+                <ul class="treeview-menu">
+                    <li><a href="usuario.php"><i class="fa fa-circle-o"></i> Usuarios</a></li>
+                    <li><a href="permiso.php"><i class="fa fa-circle-o"></i> Permisos</a></li>
+
+                </ul>
+            </li>
+            <li class="treeview">
+                <a href="#">
+                    <i class="fa fa-bar-chart"></i> <span>Consulta Compras</span>
+                    <i class="fa fa-angle-left pull-right"></i>
+                </a>
+                <ul class="treeview-menu">
+                    <li><a href="consultacompras.php"><i class="fa fa-circle-o"></i> Consulta Compras</a></li>
+                </ul>
+            </li>
+            <li class="treeview">
+                <a href="#">
+                    <i class="fa fa-bar-chart"></i> <span>Consulta Ventas</span>
+                    <i class="fa fa-angle-left pull-right"></i>
+                </a>
+                <ul class="treeview-menu">
+                    <li><a href="consultaventas.php"><i class="fa fa-circle-o"></i> Consulta Ventas</a></li>
+                </ul>
+            </li>
+            <li>
+                <a href="#">
+                    <i class="fa fa-plus-square"></i> <span>Ayuda</span>
+                    <small class="label pull-right bg-red">PDF</small>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <i class="fa fa-info-circle"></i> <span>Acerca De...</span>
+                    <small class="label pull-right bg-yellow">IT</small>
+                </a>
+            </li>
+
+        </ul>
+    </section>
+    <!-- /.sidebar -->
+</aside><!--Contenido-->
+<!-- Content Wrapper. Contains page content -->
+<div class="content-wrapper">
+    <!-- Main content -->
+    <section class="content">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="box">
+                    <div class="box-header with-border">
+                        <h1 class="box-title">Actualizacion Slide Principal</h1>
+
+                    </div>
+                    <!-- /.box-header -->
+                    <!-- centro -->
+                    <div class="panel-body table-responsive" style="height: auto;" id="listadoregistros">
+                        <div class="row">
+                            <div class="col-lg-6">
+                                <label for="">Subir Imagen</label>
+                                <input type="file" name="" id="input-subir-imagen-slide" class="form-control">
+                            </div>
+                            <div class="col-lg-2">
+                                <label for="" style="display: block; color: white">Subir Imagen</label>
+                                <button class="btn btn-primary" id="btn-subir-imagen">Subir Imagen</button>
+                            </div>
+                        </div>
+                        <hr>
+                        <div class="col-lg-12" style="margin-bottom: 1em;">
+                            <div class="col-lg-12">
+                                <div class="contenedor-imagenes row" style="border: 1px dashed black; padding: 1em">
+                                    <div class="col-lg-6">
+                                        <img src="../../views/assets/images/corporedes/Banner%20Seminario%209.0-01.jpg"
+                                             class="img-responsive" alt="">
+                                    </div>
+                                    <div class="col-lg-6">
+                                        <label for="">Seleccionar orden de imagen</label>
+                                        <select name="" id="" class="form-control">
+                                            <option value="">asd1</option>
+                                            <option value="">asd2</option>
+                                        </select>
+                                        <div class="" style="margin-top: 1em;">
+                                            <button class="btn btn-danger">Eliminar Imagen</button>
+                                            <a href="" class="btn btn-success" download="imagen.jpg">Descargar Imagen</a>
+                                            <button class="btn btn-primary">Guardar Cambios</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                    <!--Fin centro -->
+                </div><!-- /.box -->
+            </div><!-- /.col -->
+        </div><!-- /.row -->
+    </section><!-- /.content -->
+</div><!-- /.content-wrapper -->
+<!--Fin-Contenido-->
+
+<footer class="main-footer">
+    <div class="pull-right hidden-xs">
+        <b>Version</b> 1.0
+    </div>
+    <strong>&copy; 2017 - Todos los derechos reservados - <a href="https://ingegustavo.000webhostapp.com/" target="_blank"> Powered By GM</a>.</strong>
+</footer>
+<!-- jQuery 2.1.4 -->
+<script src="js/jquery-3.1.1.min.js"></script>
+<!-- Bootstrap 3.3.5 -->
+<script src="js/bootstrap.min.js"></script>
+<!-- AdminLTE App -->
+<script src="js/app.min.js"></script>
+<script src="js/bootbox.min.js"></script>
+</body>
+</html>
+
+<script src="../views/js/bootbox.min.js"></script>
+<script src="../views/js/slide.js"></script>
